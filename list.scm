@@ -1,8 +1,8 @@
 (define myList(list "Lucas" "Bernardo" "Brito"))
 
 (print myList)
-(print(car myList))  ;; Extracts the first element
-(print(cdr myList))  ;; Extracts all elements except the first
+(print(car myList))  ;; Return the first element
+(print(cdr myList))  ;; Return a list with all elements except the first
 
 (define nums(list 0 1 2 3 4 5 6 7 8 9))
 
